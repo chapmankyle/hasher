@@ -1,14 +1,15 @@
 {
   "name": "hasher",
   "version": "1.0.0",
-  "productName": "Hash Generator",
+  "productName": "Hasher",
   "description": "A simple program that computes the hashes of given text/files.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release",
-    "package-win": "electron-packager . hasher --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Hash Generator\"",    
-    "package-linux": "electron-packager . hasher --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release"
+    "package-win": "electron-packager . Hasher --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Hasher\"",
+    "package-linux": "electron-packager . Hasher --overwrite --asar --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release",
+		"create-debian-installer": "electron-installer-debian --src release/Hasher-linux-x64/ --arch amd64 --config debian.json"
   },
   "repository": "https://github.com/chapmankyle/electron",
   "keywords": [
@@ -24,6 +25,7 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^4.0.6",
+    "electron-installer-dmg": "^2.0.0",
     "electron-packager": "^13.1.0"
   }
 }
