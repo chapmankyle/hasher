@@ -28,13 +28,19 @@ Clone this repository and navigate to the `hasher` directory:
 ```shell
 # clone repo
 git clone https://github.com/chapmankyle/hasher.git
+
 # navigate to hasher directory
 cd hasher/
 ```
-Now just run the following command in the terminal:
+Now just run the following commands in the terminal:
 ```shell
+# installs all dependencies
+npm install
+
+# starts the application
 npm start
 ```
-and now you're done :tada:.
+and now you're done :tada:. You should see the following:
+<p align="center" style="margin-top: 10px"><img src="https://user-images.githubusercontent.com/43512442/53758331-4e52b280-3ec6-11e9-8a1e-8047e857d208.png" alt="screenshot"></img></p>
 
 *(I'll add executables later)*
