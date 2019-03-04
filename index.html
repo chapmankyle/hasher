@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hash Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- loads Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+		<!-- loads scripts -->
+		<script>
+			delete module.exports
+		</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./assets/js/window.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- heading -->
+      <div class="heading">
+        <h1>Hash Generator</h1>
+      </div>
+
+      <!-- rest of the content -->
+      <div class="content">
+        <!-- Input row -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3 class="hash-heading">Input</h3>
+            <textarea rows="2" id="text-input" class="form-control text-input" placeholder="Enter text to be hashed..."></textarea>
+          </div>
+        </div>
+
+        <!-- MD5 row -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3 class="hash-heading"><a href="https://en.wikipedia.org/wiki/MD5" target="_blank">MD5</a></h3>
+						<input type="text" id="md5-hash" class="form-control hashed" readonly>
+          </div>
+				</div>
+				
+				<!-- SHA-1 row -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3 class="hash-heading"><a href="https://en.wikipedia.org/wiki/SHA-1" target="_blank">SHA-1</a></h3>
+						<input type="text" id="sha1-hash" class="form-control hashed" readonly>
+					</div>
+				</div>
+
+				<!-- SHA-256 row -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3 class="hash-heading"><a href="https://en.wikipedia.org/wiki/SHA-2" target="_blank">SHA-256</a></h3>
+						<input type="text" id="sha256-hash" class="form-control hashed" readonly>
+					</div>
+				</div>
+
+				<!-- SHA-512 row -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3 class="hash-heading"><a href="https://en.wikipedia.org/wiki/SHA-2" target="_blank">SHA-512</a></h3>
+						<textarea id="sha512-hash" class="form-control hashed" disabled></textarea>
+					</div>
+				</div>
+
+      </div>
+    </div>
+  </body>
+</html>

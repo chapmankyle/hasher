@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+/* styles all elements */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Karla', sans-serif;
+}
+
+/* styles background */
+html, body, .container-fluid {
+	background-color: #4c4c4c;
+}
+
+/* styling all links */
+a:link, a:visited, a:hover, a:active {
+	color: #fcfcfc;
+	text-decoration: none;
+}
+
+/* when hovering over link */
+a:hover {
+	cursor: pointer;
+}
+
+/* styles the heading */
+.heading {
+	color: #ffffff;
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* adds margins */
+.row {
+	margin-bottom: 17px;
+}
+
+/* styles the input text */
+.text-input {
+	font-size: 16px;
+	background-color: #fcfcfc;
+}
+
+/* styles the heading of the hashes */
+.hash-heading {
+	color: #fcfcfc;
+	font-weight: normal;
+}
+
+/* styles the value of the hashes */
+.hashed {
+	font-size: 16px;
+	color: #575b5e;
+	background-color: #f2f2f2;
+	letter-spacing: 2px;
+	white-space: pre-wrap;
+	font-family: monospace;
+}
