@@ -9,7 +9,7 @@
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release",
     "package-win": "electron-packager . Hasher --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Hasher\"",
     "package-linux": "electron-packager . Hasher --overwrite --asar --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release",
-		"create-debian-installer": "electron-installer-debian --src release/Hasher-linux-x64/ --arch amd64 --config debian.json"
+    "create-debian-installer": "electron-installer-debian --src release/Hasher-linux-x64/ --arch amd64 --config debian.json"
   },
   "repository": "https://github.com/chapmankyle/electron",
   "keywords": [
