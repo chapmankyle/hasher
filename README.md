@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/npm/v/electron.svg" alt="npm version"></img>
 </p>
 
-Program that computes the `MD5`, `SHA-1`, `SHA-256` and `SHA-512` hashes of inputted text, built using [Electron](https://electronjs.org).
+Program that computes the `MD5`, `SHA-1`, `SHA-256` and `SHA-512` hashes of inputted text, built using [Electron](https://electronjs.org). Code was **heavily** influenced by the Electron example called [Hash](https://github.com/electron/simple-samples/tree/master/hash) and was mainly done to learn how Electron works instead of being an original application.
 
 ## Getting Started
 You need to have [Node.js](https://nodejs.org/) installed in order to compile from the source code.
@@ -43,4 +43,3 @@ npm start
 and now you're done :tada:. You should see the following:
 <p align="center" style="margin-top: 10px"><img src="https://user-images.githubusercontent.com/43512442/53758331-4e52b280-3ec6-11e9-8a1e-8047e857d208.png" alt="screenshot"></img></p>
 
-*(I'll add executables later)*
