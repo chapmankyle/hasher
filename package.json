@@ -24,7 +24,7 @@
   "author": "Kyle Chapman",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^9.4.0",
+    "electron": "^15.5.5",
     "electron-installer-dmg": "^2.0.0",
     "electron-packager": "^13.1.0"
   }
